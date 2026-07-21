@@ -1,6 +1,14 @@
+import Navbar from "./components/Navbar";
+import Banner from "./components/Banner";
+import Home from "./pages/Home";
+
 function App() {
   return (
-    <h1>Restaurant Ordering</h1>
+    <>
+      <Navbar />
+      <Banner />
+      <Home />
+    </>
   );
 }
 
